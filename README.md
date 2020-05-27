@@ -10,6 +10,11 @@ import ssl
 from time import sleep
 from random import uniform
 
+
+
+
+if __name__=="__main__":
+
 def on_connectpub(client, userdata, flags, rc):
     print("Connected to AWS cloud broker service: " + str(rc) )
     for i in range(5):
@@ -21,9 +26,6 @@ def on_connectpub(client, userdata, flags, rc):
                           })
         mqttcpub.publish("Temp", data_to_cloud, qos=0)
         print("msg sent: " + data_to_cloud)
-
-
-if __name__=="__main__":
 
     #To create two client object
     mqttcpub=paho.Client()   # Publisher to AWS MQTT Broker
