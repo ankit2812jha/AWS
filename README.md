@@ -1,7 +1,7 @@
 # Code to publish IOT data to AWS using paho libarary python
 
 #!/usr/bin/python
-
+#To create two client object
 import json
 import paho.mqtt.client as paho
 import os
