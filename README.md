@@ -1,4 +1,4 @@
-# Code to publish data to AWS usng paho libarary
+# Code to publish data to AWS using paho libarary
 
 #!/usr/bin/python
 
