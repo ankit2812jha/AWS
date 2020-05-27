@@ -32,7 +32,7 @@ if __name__=="__main__":
 
 
     # Providing AWS MQTT broker information
-    awshost = "a3aofup4jgxm2x-ats.iot.us-west-2.amazonaws.com"  #AWS IoT console -> Settings
+    awshost = "-ats.iot.us-west-2.amazonaws.com"  #AWS IoT console -> Settings
     awsport = 8883  #MQTT +TLS  ---- To ensure communication security
     clientId = "MyPi_2020"  ## Unique ID assigned by you to your device
     thingName = "MyPi_2020"
