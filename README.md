@@ -1,4 +1,4 @@
-# Code to publish data to AWS using paho libarary
+# Code to publish IOT data to AWS using paho libarary python
 
 #!/usr/bin/python
 
